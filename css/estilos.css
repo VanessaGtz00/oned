@@ -1,0 +1,160 @@
+@font-face {
+    font-family: "Cinzel";
+    src: url("../fonts/Cinzel\,Cormorant_Garamond\,Playfair_Display/Cinzel");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;  
+    font-family: "Cinzel";
+}
+
+header {
+    background: url(../imagenes/R\ \(1\).jpeg);
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+header h1 {
+    margin-top: 100px;
+    font-size: 12rem;
+    color: rgb(255, 255, 255);
+    align-self: flex-start;
+    justify-self: flex-start;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav a {
+    width: 33.333%;
+    font-size: 2rem;
+    color: #ffffff;
+    font-weight: 600;
+    letter-spacing: 8pt;
+    border: none;
+    line-height: 100px;
+    text-decoration: none;
+}
+
+.contenido {
+    min-width: 320px;
+}
+
+#about {
+    background: linear-gradient(rgba(243, 221, 221, 0.6), rgba(0, 0, 0, 0.6)), url(../imagenes/OIP\ \(1\).jpeg) no-repeat fixed;
+    background-size: cover;
+    height: 500px;
+    margin: 5px 0;
+    padding: 70px 0;
+    font-size: 6rem;
+    color: #f7eaea;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2rem;
+}
+
+#about h1 {
+    font-size: 4rem;
+    margin-bottom: 20px;
+}
+
+#about img {
+    width: 5%;
+    flex-grow: 1;
+    border-radius: 50%;
+}
+
+#about figcaption {
+    width: 40%;
+    font-size: 2rem;
+    vertical-align: top;
+    padding-top: 10px;
+    line-height: 2rem;
+    flex-grow: 1;
+}
+
+#projects {
+    background-image: url(../imagenes/one_direction-19.jpg);
+    background-size: cover;
+    color: #ffffff;
+    padding: 50px;
+    text-align: center;
+    
+}
+
+#projects h2 {
+    font-size: 4rem;
+    margin-bottom: 20px;
+}
+
+#projects p {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.project-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.project-item {
+    width: calc(50% - 20px);
+    margin-bottom: 40px;
+}
+
+.project-item img {
+    width: 100%;
+    max-width: 400px;
+    display: block;
+    margin: 0 auto 10px;
+    border-radius: 50%;
+}
+
+.project-item p {
+    font-size: 1.2rem;
+}
+
+.left-text {
+    text-align: left;
+    font-size: 3rem;
+}
+
+.right-text {
+    text-align: right;
+}
+
+
+
+
+
+
+
+#arriba{
+   display: block;
+   position: fixed;
+   right: 30px;
+   top: 80%;
+   font-size: 5rem;
+   color: rgba(204, 202, 135, 0.815);
+   border-radius: 50%;
+
+
+}
